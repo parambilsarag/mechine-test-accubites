@@ -1,0 +1,9 @@
+.validation-error {
+  text-align: initial;
+  color: red
+};
+.emailid{
+  height: 40px;
+  border-radius: 6px;
+  border: 1px solid #bdaeae;
+}

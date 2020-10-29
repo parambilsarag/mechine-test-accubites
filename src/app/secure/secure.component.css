@@ -1,0 +1,33 @@
+.secure{
+  height: 400px;
+    background: #dedcdc;
+    padding: 60px;
+}
+.containerx{
+  padding: 100px 126px 50px 149px;
+  background: #dedcdc;
+  height: 600px;
+}
+.icon{
+  text-align: center;
+}
+.keys{
+  height: 400px;
+    width: 430px;
+}
+.pclass{
+  text-align: justify;
+}
+.sec-title{
+  text-align: center;
+    padding-bottom: 22px;
+}
+.more{
+  height: 44px;
+  width: 121px;
+  border: 1px solid #dedcdc;
+  border-radius: 30px;
+}
+.pclass{
+  color: #847c7c;
+}

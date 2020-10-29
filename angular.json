@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "test-accubites"
+    }
+  },
+  "defaultProject": "test-accubites",
+  "cli": {
+    "analytics": "9f76d95a-e6a4-419a-84f6-8a8e677d416a"
+  }
 }

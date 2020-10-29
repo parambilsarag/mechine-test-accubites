@@ -1,0 +1,17 @@
+<div class="login-page">
+
+  <div class="form">
+    <h3 class="h3class">Login Form</h3>
+    <form [formGroup]="loginForm" class="login-form">
+      <div class="form-group">
+      <app-email [form] = "loginForm"></app-email>
+      <br>
+      <app-password [form] = "loginForm"></app-password>
+      <br>
+    </div>
+      <button type="button" (click)="login()">
+        Login
+        </button>
+    </form>
+  </div>
+</div>

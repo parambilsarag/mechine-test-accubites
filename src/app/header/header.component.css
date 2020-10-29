@@ -1,0 +1,22 @@
+.rights{
+  background: linear-gradient(90deg, rgb(93 92 113) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+.bg-lights {
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.nav-link{
+  color: white;
+}
+.menuleft{
+  padding-left: 14px;
+    padding-right: 14px;
+    color: white;
+}
+.brandlogo{
+  height: 80px;
+    width: 144px;
+}
+.logimg{
+  width: 200px;
+}

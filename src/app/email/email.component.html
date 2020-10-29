@@ -1,0 +1,13 @@
+<div [formGroup]="form">
+  <input class="emailid" formControlName="email" style="width: 100%; height: 40px;  border-radius: 6px;  border: 1px solid #bdaeae;" type="text" placeholder="Email" />
+  <div class="validation-error" *ngIf="form.controls.email.invalid && (form.controls.email.dirty || form.controls.email.touched)">
+    <div *ngIf="form.controls.email.errors.required">
+      *Email is required.
+    </div>
+
+    <div *ngIf="form.controls.email.errors.email">
+      *Enter a Valid Email .
+    </div>
+  </div>
+
+</div>
